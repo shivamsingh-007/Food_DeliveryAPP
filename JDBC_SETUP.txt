@@ -1,0 +1,12 @@
+# Download MySQL JDBC Driver
+# 1. Go to: https://dev.mysql.com/downloads/connector/j/
+# 2. Download the platform-independent zip file.
+# 3. Extract the .jar file (e.g., mysql-connector-java-8.0.xx.jar).
+# 4. Place the .jar file in your project directory (e.g., 'lib' folder).
+# 5. Add the .jar to your classpath when compiling and running your Java code.
+
+# Example (Windows, PowerShell):
+# javac -cp .;lib\mysql-connector-java-8.0.xx.jar Main.java
+# java -cp .;lib\mysql-connector-java-8.0.xx.jar Main
+
+# Next: Implement Java code to connect to the database.
